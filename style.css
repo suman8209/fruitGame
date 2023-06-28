@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+#gameBoard{
+    width: 50vw;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: #fff;
+    border: 3px solid #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#gameBoard .fruit{
+    width: 17%;
+    height: 20px;
+    margin: 0.25rem;
+    border: 1px solid #121212;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-out;
+}
+#gameBoard .fruit:hover{
+    transform: scale(1.05);
+}
